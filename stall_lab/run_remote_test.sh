@@ -5,7 +5,7 @@ set -e  # 遇到任何錯誤即中斷腳本
 # 1) 參數設定
 ############################################
 REMOTE_USER="pi"                  # 遠端使用者
-REMOTE_IP="192.168.0.123"         # 遠端機器 IP 或 hostname
+REMOTE_IP="100.73.73.113"         # 遠端機器 IP 或 hostname
 REMOTE_DIR="~/Documents/ARMory/stall_lab"  # 遠端專案目錄 (Git 同步處)
 
 # 預設重複次數 (若無提供參數)
