@@ -1,6 +1,8 @@
 // single_cycle_no_dep.S
 .global _main
+.global main
 _main:
+main:
     // Unroll 10 times (示範)
     // 每個指令都無資料相依
     mov x0, #100     // 不斷初始化 x0, x1

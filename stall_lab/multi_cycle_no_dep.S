@@ -1,6 +1,8 @@
 // multi_cycle_no_dep.S
 .global _main
+.global main
 _main:
+main:
     // Unroll 10 times
     mov w5, #123
     mov w6, #456

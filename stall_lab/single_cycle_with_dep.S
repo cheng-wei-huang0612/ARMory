@@ -1,6 +1,8 @@
 // single_cycle_with_dep.S
 .global _main
+.global main
 _main:
+main:
     mov x0, #0
 
     // Unroll 10 times
