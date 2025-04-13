@@ -1,6 +1,8 @@
 // multi_cycle_with_dep.S
 .global _main
+.global main
 _main:
+main:
     mov w5, #123
     mov w6, #456
 
